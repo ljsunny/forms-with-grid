@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3de8e3097.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../main.css">
+    <title>Form with Grid</title>
+</head>
+
+<body class="bg3">
+    <nav>
+        <ul>
+            <li><a href="../index.html">🏠</a></li>
+            <li><a href="./form1.html">1️⃣</a></li>
+            <li><a href="./form2.html">2️⃣</a></li>
+            <li><a href="./form3.html">3️⃣</a></li>
+            <li><a href="./form4.html">4️⃣</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form id="form3">
+            <header>
+                <h1>Book your appointment now</h1>
+                <p>So our team can reach out to you time</p>
+            </header>
+            <div>
+                <div class="name">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" placeholder="eg: John Doe" class="name">
+                </div>
+            </div>
+            <div class="email">
+                <label for="Email">Email</label>
+                <input type="text" name="email" placeholder="eg: john@email.com">
+            </div>
+            <div class="phone_n">
+                <label for="phone">Phone Number</label>
+                <select class="national-code">
+                    <option value="+971">+971</option>
+                </select>
+                <input type="text" name="phone_n" placeholder="eg: 543210987">
+            </div>
+            <div class="date">
+                <label for="date">Available Date</label>
+                <select name="date">
+            <option value="Select">Select</option>
+            </select>
+            </div>
+            <div class="message">
+                <label for="message">Share Your Message</label>
+                <textarea name="message" placeholder="Message" rows="7"></textarea>
+            </div>
+            <button class="button">Book Now →</button>
+        </form>
+    </main>
+</body>
+
+</html>
